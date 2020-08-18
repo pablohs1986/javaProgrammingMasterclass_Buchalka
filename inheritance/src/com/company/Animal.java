@@ -40,7 +40,7 @@ public class Animal {
         System.out.println("Animal is eating.");
     }
 
-    public void move(){
-        System.out.println("Animal is moving.");
+    public void move(int speed){
+        System.out.println("Animal is moving at " + speed);
     }
 }
